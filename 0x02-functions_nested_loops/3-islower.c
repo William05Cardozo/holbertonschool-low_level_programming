@@ -2,7 +2,7 @@
 
 /**
  * _islower - entry poin
- * int c: variable
+ * @c: variable
  * Return: 0
  */
 int _islower(int c)
