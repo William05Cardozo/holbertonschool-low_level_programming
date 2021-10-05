@@ -5,10 +5,10 @@ int main(void)
 	char c[] = "_putchar";
 	int d;
 
-	for (d = 0; d <= 8; d++)
+	for (d = 0; d <= 7; d++)
 	{
-		putchar(c[a]);
+		_putchar(c[d]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
