@@ -5,12 +5,10 @@
  * mul - Multiplicate
  * @a: Variable 1
  * @b: Variable 2
- * Return: 0
+ * Return: resultado 
  */
 
 int mul(int a, int b)
 {
-	printf("%d", a * b);
-
-	return (0);
+	return (a * b);
 }
