@@ -1,17 +1,19 @@
 #include "main.h"
-
+/**
+ * print_line - Entry Point
+ * a: Variable
+ * Return: New Line
+ */
 void print_line(int n)
 {
 	int a;
-	a = 1;
+	a = 0;
 
-	if (n > a)
+	while (n > a)
 	{
 		_putchar('_');
-		_putchar('\n');
+		a++;
+	
 	}
-	else
-	{
-		_putchar('\n');
-	}
+	_putchar('\n');
 }
