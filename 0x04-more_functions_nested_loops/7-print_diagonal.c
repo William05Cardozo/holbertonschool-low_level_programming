@@ -27,4 +27,8 @@ void print_diagonal(int n)
 		a++;
 		n--;
 	}
+	if (a < 1)
+	{
+		_putchar(''\n');
+	}
 }
