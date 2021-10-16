@@ -29,7 +29,7 @@ char *cap_string(char *str)
 
 		if (str[j] >= 'A' && str[j + 1] <= 'Z' && j > 0)
 			str[j] = tolower(str[j]);
-				
+
 		for (k = 0; k < 13; k++)
 		{
 			if (str[j] == sep[k] && str[j + 1] != sep[k + 1])
