@@ -35,7 +35,8 @@ char *cap_string(char *str)
 					str[j + 1] = toupper(str[j + 1]);
 			}
 		}
-		if (str[j] >= 'A' && str[j] <= 'Z' && j > 0)
+		
+		if (str[j] <= 'A' && str[j] >= 'Z' && j > 0)
 			str[j] = tolower(str[j]);
 	}
 	return (str);
