@@ -3,32 +3,24 @@
 
 /**
  * leet - Entry Point
- * @a: Pointer
+ * @s: Pointer
+ * a: Variable
  * b: Variable
  * Return: a
  */
 
-char *leet(char *a)
+char *leet(char *s)
 {
+	int a;
 	int b;
+	char c[] = "aAeEoOtTlL";
+	char c2[] = "4433007711";
 
-	for (b = 0; a[b] != '\0'; b++)
+	for (a = 0; s[a]; a++)
 	{
-		while (a[b] == 'a' || a[b] == 'A')
-			a[b] = '4';
-
-		while (a[b] == 'e' || a[b] == 'E')
-			a[b] = '3';
-
-		while (a[b] == 'o' || a[b] == 'O')
-			a[b] = '0';
-
-		while (a[b] == 't' || a[b] == 'T')
-			a[b] = '7';
-
-		while (a[b] == 'l' || a[b] == 'L')
-			a[b] = '1';
+		for (b = 0; c[b]; b++)
+			if (s[a] == c[b])
+				s[a] = c2[b];
 	}
-
-	return (a);
+	return (s);
 }
