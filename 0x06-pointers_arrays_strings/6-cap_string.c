@@ -27,7 +27,7 @@ char *cap_string(char *str)
 	{
 		str[0] = toupper(str[0]);
 
-		if (str[j] >= 'A' && str[j] <= 'Z' && j > 0)
+		if (str[j + 1] >= 'A' && str[j + 1] <= 'Z' && j > 0)
 			str[j] = tolower(str[j]);
 
 		for (k = 0; k < 13; k++)
