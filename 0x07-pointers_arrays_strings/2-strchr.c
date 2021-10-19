@@ -5,13 +5,14 @@
  * _strchr - Entry Point
  * @s: Pointer
  * @c: Variable
- * Return: 0
+ * Return: s + 2
  */
 
 char *_strchr(char *s, char c)
 {
 	while (*s != '\0')
-	
+	{
+
 		if (*s == c)
 		{
 			return (s);
@@ -20,5 +21,7 @@ char *_strchr(char *s, char c)
 		{
 			return (s + 2);
 		}
-	return (0);
+		s++;
+	}
+	return (s + 2);
 }
