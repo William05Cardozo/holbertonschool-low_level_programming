@@ -1,21 +1,23 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * _memset - Entry Point
  * @s: Pointer
  * @b: Variable
  * @n: Variable
- * a: Varaible
- * Return: No line
+ * a: Variable
+ * Return: s
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	int c;
+	unsigned int a;
 
-	for (c = 0; c < n; a++)
+	a = 0;
+
+	for (a = 0; a < n; a++)
 	{
-		s[c] = b;
+		s[a] = b;
 	}
 	return (s);
 }
