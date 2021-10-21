@@ -3,10 +3,9 @@
 
 /**
  * _pow_recursion - Funtion
- * @x: Pointer
- * @y: Pointer
- * p: Variable
- * return: p
+ * @x: int
+ * @y: int
+ * Return: p
  */
 
 int _pow_recursion(int x, int y)
