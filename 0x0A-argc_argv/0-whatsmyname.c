@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 int main (int __attribute__((unused)) argc, char *argv[])
