@@ -5,12 +5,13 @@
 /**
  * malloc_checked - allocate memory
  * @b: Variable
+ * a: pointer to b
  * Return: a
  */
 
 void *malloc_checked(unsigned int b)
 {
-	int a;
+	int *a;
 
 	a = malloc(sizeof(b));
 
