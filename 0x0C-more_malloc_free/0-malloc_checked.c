@@ -5,19 +5,20 @@
 /**
  * malloc_checked - allocate memory
  * @b: Variable
- * a: pointer to b
+ * p: pointer to b
  * Return: a
  */
 
 void *malloc_checked(unsigned int b)
 {
-	int *a;
+	void *a;
 
-	a = malloc(sizeof(b));
+	a = malloc(b);
 
 	if (a == NULL)
 	{
 		exit(98);
 	}
+
 	return (a);
 }
