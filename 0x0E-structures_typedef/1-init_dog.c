@@ -3,8 +3,8 @@
 
 /**
  * init_dog - init a variable
- * @d: Structure name
- * @name: Variable string
+ * @d: Pointer
+ * @name: Variale string
  * @age: Variable int
  * @owner: Variable string
  */
