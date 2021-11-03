@@ -40,6 +40,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 	for (z = 0; z <= x; z++)
 	{
+		*(copyname + z) = *(name + z);
+	}
+	for (z = 0; z <= y; z++)
+	{
 		*(copyowner + z) = *(owner + z);
 	}
 	my_dog->name = copyname;
