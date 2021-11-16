@@ -1,5 +1,11 @@
 #include "lists.h"
 
+/**
+ * free_listint2 - Function free
+ * @head: Double Pointer
+ * release: Variable
+ * Return: No line
+ */
 
 void free_listint2(listint_t **head)
 {
