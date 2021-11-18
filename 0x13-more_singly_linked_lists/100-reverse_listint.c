@@ -1,5 +1,11 @@
 #include "lists.h"
 
+/**
+ * reverse_listint - Function
+ * @head: Pointer
+ *
+ * REturn: head
+ */
 
 listint_t *reverse_listint(listint_t **head)
 {
@@ -11,7 +17,7 @@ listint_t *reverse_listint(listint_t **head)
 	{
 		next = current->next;
 
-		current->next =end;
+		current->next = end;
 		end = current;
 		current = next;
 	}
