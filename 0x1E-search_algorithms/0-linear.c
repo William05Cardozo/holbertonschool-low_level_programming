@@ -7,8 +7,6 @@
  * @value: is the value to search
  * Return: -1 in error case or is NULL
  **/
-
-
 int linear_search(int *array, size_t size, int value)
 {
 	size_t i;
