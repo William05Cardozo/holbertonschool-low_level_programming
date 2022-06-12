@@ -1,12 +1,13 @@
 #include "search_algos.h"
 
 /**
- * linear_search - Function
- * @array: is a pointer to the first element of the array to search
- * @size:  is the number of elements in array
- * @value: is the value to search
- * Return: -1 in error case or is NULL
+ * linear_search - funcion
+ * @array: is a pointer to the first element
+ * @size: is the number the elements in array
+ * @value: Value to search
+ * Return: -1 in error case
  **/
+
 int linear_search(int *array, size_t size, int value)
 {
 	size_t i;
